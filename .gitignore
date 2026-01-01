@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env
+
+# ML models (too large for git)
+*.h5
+*.pt
+*.pkl
+*.onnx
+
+# Data (keep only samples)
+backend/data/raw/
+backend/data/full/
+
+# OS junk
+.DS_Store
+Thumbs.db
